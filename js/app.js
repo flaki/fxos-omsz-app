@@ -21,5 +21,13 @@ a.Promise&&"reject"in a.Promise&&"all"in a.Promise&&"race"in a.Promise&&function
 
 
 window.addEventListener("load", function() {
-  alert("Üdv!");
+  alert("Geolokáció lekérdezése...");
+  
+  getLocation().then(function(position) {
+    alert("Pozíció: "+position.coords.latitude+","+position.coords.longitude);
+
+  }).catch(function(error) {
+    alert("Hiba! "+error.toString());
+
+  });
 });

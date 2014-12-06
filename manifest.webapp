@@ -9,7 +9,7 @@
     "128": "/icons/icon128x128.png"
   },
  "version": "1.1",
- "default_locale": "hu"
+ "default_locale": "hu",
  "developer": {
     "name": "",
     "url": ""
@@ -18,7 +18,8 @@
     "geolocation": {
       "description": "Accessing user location & translating to geolocation."
     },
-    "systemXHR": { "description": "Getting weather alerts from the server." }
-    },
+    "systemXHR": {
+      "description": "Getting weather alerts from the server."
+    }
   }
 }

@@ -8,10 +8,17 @@
     "60": "/icons/icon60x60.png",
     "128": "/icons/icon128x128.png"
   },
-
+ "version": "1.1",
+ "default_locale": "hu"
+ "developer": {
+    "name": "",
+    "url": ""
+  },
   "permissions": {
     "geolocation": {
       "description": "Accessing user location & translating to geolocation."
-    }
+    },
+    "systemXHR": { "description": "Getting weather alerts from the server." }
+    },
   }
 }

@@ -1,0 +1,74 @@
+#alarm_icon {
+width:180px;
+height:125px;
+background-image:url("../icons/weather.png");
+}
+#alarm_area{
+background-color:#000;
+height:220px;
+position:"absolute";
+}
+#alarm_event, #alarm_desc, #last_refresh {
+ color:#fff;
+ font-size:12pt;
+}
+
+#last_refresh {
+height:28px;
+}
+#last_refresh span {
+font-weight:bold;
+margin-left:3px;
+}
+
+#refresh{
+width:28px;
+height:28px;
+background-image:url("../icons/refresh_24.png");
+background-repeat: no-repeat;
+margin-left:8px;
+margin-top:5px;
+background-position: 2px 2px;
+}
+
+.alarm_icon_0{
+    background-position: 0px 0px; 
+
+}
+
+.alarm_icon_1{
+    background-position: 0px 0px; 
+
+}
+.alarm_icon_2{
+    background-position: 181px 0px; 
+
+}
+.alarm_icon_3{
+    background-position: 361px 0px; 
+
+}
+.alarm_icon_4{
+    background-position: 0px 126px; 
+
+}
+.alarm_icon_5{
+    background-position: 181px 126px; 
+
+}
+.alarm_icon_6{
+    background-position: 361px 126px; 
+
+}
+.alarm_icon_7{
+    background-position: 0px 251px; 
+
+}
+.alarm_icon_8{
+    background-position: 181px 251px; 
+}
+.alarm_icon_9{
+    background-position: 361px 251px; 
+
+
+}
